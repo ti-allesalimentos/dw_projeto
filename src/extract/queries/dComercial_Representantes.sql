@@ -1,0 +1,7 @@
+SELECT
+    A3_COD,
+    A3_NOME,
+    A3_GEREN,
+    A3_COMIS
+FROM SA3010
+WHERE D_E_L_E_T_ = ''

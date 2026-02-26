@@ -1,0 +1,12 @@
+SELECT
+    B1_COD,
+    B1_DESC,
+    B1_TIPO,
+    B1_UM,
+    B1_GRUPO,
+    B1_UCOM,
+    B1_CONTA,
+    B1_X_AGRUP,
+    B1_UPRC
+FROM SB1010
+WHERE D_E_L_E_T_ = ''

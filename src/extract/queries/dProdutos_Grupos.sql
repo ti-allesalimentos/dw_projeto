@@ -1,0 +1,5 @@
+SELECT
+    BM_GRUPO,
+    BM_DESC
+FROM SBM010
+WHERE D_E_L_E_T_ = ''
