@@ -1,0 +1,17 @@
+SELECT 
+    SA2.A2_COD,
+    SA2.A2_LOJA,
+    SA2.A2_NREDUZ,
+    SA2.A2_CGC,
+    SA2.A2_NOME,
+    SA2.A2_END,
+    SA2.A2_BAIRRO,
+    SA2.A2_MUN,
+    SA2.A2_EST,
+    SA2.A2_CEP,
+    SA2.A2_EMAIL,
+    SA2.A2_GRPTRIB
+FROM 
+    SA2010 SA2
+WHERE 
+    SA2.D_E_L_E_T_ = ''

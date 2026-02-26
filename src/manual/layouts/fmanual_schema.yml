@@ -1,0 +1,15 @@
+workbook: fmanual
+sheets:
+  - name: dAgrupPROD
+    target_table: fmanual_dAgrupPROD
+    required_columns:
+      - PRODUTO
+      - GRUPO
+      - SUBGRUPO
+
+  - name: dRegiap
+    target_table: fmanual_dRegiap
+    required_columns:
+      - Coluna 1
+      - Coluna 2
+      - Coluna 3

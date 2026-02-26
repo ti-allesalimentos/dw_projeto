@@ -1,0 +1,15 @@
+.venv/
+.env
+logs/
+*.log
+data/
+__pycache__/
+*.pyc
+target/
+dbt_packages/
+.DS_Store
+.env
+.vscode/
+
+
+

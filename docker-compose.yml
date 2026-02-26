@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: dw_postgres
+    environment:
+      POSTGRES_USER: dw
+      POSTGRES_PASSWORD: dw_password
+      POSTGRES_DB: dw
+    ports:
+      - "5432:5432"
+    volumes:
+      - dw_pgdata:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d
+
+  adminer:
+    image: adminer
+    container_name: dw_adminer
+    ports:
+      - "8080:8080"
+
+volumes:
+  dw_pgdata:
+
