@@ -1,0 +1,28 @@
+SELECT
+    E1_FILIAL,
+    E1_PREFIXO,
+    E1_NUM,
+    E1_PARCELA,
+    E1_TIPO,
+    E1_NATUREZ,
+    E1_SITUACA,
+    E1_CLIENTE,
+    E1_LOJA,
+    E1_NOMCLI,
+    E1_EMISSAO,
+    E1_VENCTO,
+    E1_VENCREA,
+    E1_VALOR,
+    E1_BAIXA,
+    E1_NUMBOR,
+    E1_DATABOR,
+    E1_SALDO,
+    E1_VLCRUZ,
+    E1_DESCFIN,
+    E1_HIST,
+    E1_FLUXO,
+    E1_FORMREC,
+    E1_X_FREC,
+    E1_VEND1
+FROM SE1010
+WHERE D_E_L_E_T_ = ''

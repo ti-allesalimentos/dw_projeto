@@ -11,4 +11,3 @@ select
     dw_source,
     dw_loaded_at
 from src
-where "D_E_L_E_T_" = ''

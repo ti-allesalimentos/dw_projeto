@@ -1,0 +1,29 @@
+SELECT
+    E5_FILORIG,
+    E5_TIPODOC,
+    E5_VALOR,
+    E5_NATUREZ,
+    E5_BANCO,
+    E5_AGENCIA,
+    E5_CONTA,
+    E5_HISTOR,
+    E5_BENEF,
+    E5_NUMERO,
+    E5_PARCELA,
+    E5_CLIFOR,
+    E5_LOJA,
+    E5_SEQ,
+    E5_DATA,
+    E5_MOTBX,
+    E5_TABORI,
+    E5_TIPO,
+    E5_DTCANBX
+FROM SE5010
+WHERE D_E_L_E_T_ = ''
+--   AND E5_MOTBX = 'NOR'
+--   AND E5_TABORI = 'FK1'
+--   AND E5_TIPO <> 'NCC'
+--   AND E5_TIPODOC NOT IN ('DC', 'ES', 'JR')
+--   AND E5_VALOR <> 0
+--   AND E5_TIPO = 'NF'
+--   AND E5_DTCANBX = ''

@@ -1,0 +1,13 @@
+SELECT
+    EV_FILIAL,
+    EV_PREFIXO,
+    EV_NUM,
+    EV_PARCELA,
+    EV_CLIFOR,
+    EV_LOJA,
+    EV_TIPO,
+    EV_VALOR,
+    EV_NATUREZ,
+    EV_PERC
+FROM SEV010
+WHERE D_E_L_E_T_ = ''

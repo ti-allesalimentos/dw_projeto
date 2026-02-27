@@ -1,0 +1,29 @@
+SELECT
+    E2_FILIAL,
+    E2_PREFIXO,
+    E2_NUM,
+    E2_PARCELA,
+    E2_FORNECE,
+    E2_LOJA,
+    E2_NOMFOR,
+    E2_TIPO,
+    E2_NATUREZ,
+    E2_EMISSAO,
+    E2_VENCREA,
+    E2_X_RENEG,
+    E2_JUROS,
+    E2_VALLIQ,
+    E2_BAIXA,
+    E2_FORMPAG,
+    E2_VALOR,
+    E2_SALDO,
+    E2_LINDIG,
+    E2_CODBAR,
+    E2_X_PRIOR,
+    E2_X_SIT,
+    E2_DECRESC,
+    E2_FATURA
+FROM SE2010
+WHERE D_E_L_E_T_ = ''
+--   AND E2_TIPO NOT IN ('FT ', 'NDF', 'PA ', 'PRE')
+--   AND E2_NUMLIQ = ''

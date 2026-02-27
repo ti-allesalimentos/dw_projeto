@@ -1,0 +1,9 @@
+SELECT
+    A6_COD,
+    A6_AGENCIA,
+    A6_NUMCON,
+    A6_NOME,
+    A6_SALATU,
+    A6_FILIAL
+FROM SA6010
+WHERE D_E_L_E_T_ = ''
