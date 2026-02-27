@@ -1,6 +1,6 @@
 with src as (
     select *
-    from raw.ffinanceiro
+    from raw.dfinanceiro_mult_naturezas
 )
 
 select
