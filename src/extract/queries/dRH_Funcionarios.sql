@@ -1,0 +1,17 @@
+SELECT
+    RA_FILIAL,
+    RA_MAT,
+    RA_NOME,
+    RA_SEXO,
+    RA_NASC,
+    RA_ADMISSA,
+    RA_DEMISSA,
+    RA_SITFOLH,
+    RA_CC,
+    RA_CODFUNC,
+    RA_SALARIO,
+    RA_HRSMES,
+    RA_ADCPERI,
+    RA_ADCINS
+FROM SRA010
+WHERE D_E_L_E_T_ = ''

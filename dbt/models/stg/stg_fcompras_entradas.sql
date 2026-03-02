@@ -1,6 +1,6 @@
 with src as (
     select *
-    from raw.ffaturamento_devolucao
+    from raw.fcompras_entradas
 )
 
 select

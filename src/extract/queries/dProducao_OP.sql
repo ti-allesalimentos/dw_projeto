@@ -1,0 +1,8 @@
+SELECT
+    C2_FILIAL,
+    C2_NUM,
+    C2_ITEM,
+    C2_SEQUEN,
+    C2_PRODUTO
+FROM SC2010
+WHERE D_E_L_E_T_ = ''
