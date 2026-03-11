@@ -7,9 +7,25 @@ sheets:
       - GRUPO
       - SUBGRUPO
 
-  - name: dRegiap
-    target_table: fmanual_dRegiap
+  - name: dRegiao
+    target_table: fmanual_dRegiao
     required_columns:
       - Coluna 1
       - Coluna 2
       - Coluna 3
+
+  - name: fFaturamentoDataVale
+    target_table: fmanual_fFaturamento_Datavale
+    required_columns:
+      - Coluna 1
+      - Coluna 2
+      - Coluna 3
+      - Coluna 4
+      - Coluna 5
+      - Coluna 6
+      - Coluna 7
+      - Coluna 8
+      - Coluna 9
+      - Coluna 10
+      - Coluna 11
+      - Coluna 12
